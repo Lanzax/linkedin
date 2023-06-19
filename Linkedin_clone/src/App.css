@@ -1,0 +1,484 @@
+body,
+html,
+.App {
+  background-color: black !important;
+}
+
+/* .stickyRight, .stickyRight1, .stickyLeft, .footerHomepage {
+  position: sticky !important;
+}
+
+.stickyRight{
+  top: 70px;
+}
+
+.stickyRight1 {
+  top: 400px;
+}
+
+.stickyLeft {
+  top: 70px;
+}
+
+.footerHomepage {
+  top: 425px;
+} */
+
+/* Jumbotron */
+.profilePicture {
+  height: 135px;
+  width: 135px;
+  border-radius: 50%;
+  left: 4px;
+  position: relative;
+  top: 5px;
+  background-color: black;
+  padding: 5px;
+  margin-top: -100px;
+}
+
+.biPencil:hover {
+  background-color: rgba(69, 65, 65, 0.788);
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.altroButton:hover {
+  background-color: lightslategray !important;
+  color: white !important;
+}
+
+.altroButton,
+.messaggioButton {
+  font-weight: bold !important;
+}
+
+/* fine Jumbotron */
+
+/* INIZIO NAVBAR */
+
+.icons {
+  font-size: 1.2em;
+}
+
+.iteration {
+  border-right: 0.1px solid rgba(128, 128, 128, 0.2);
+}
+
+.searchBar {
+  align-items: center;
+}
+
+nav {
+  z-index: 1;
+  position: sticky;
+  top: 0;
+  border-top: 0.1px solid rgba(128, 128, 128, 0.2);
+  border-bottom: 0.1px solid rgba(128, 128, 128, 0.2);
+  color: grey;
+  background-color: #1d2226;
+}
+
+.inputBar {
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  background-color: #38434f;
+}
+.inputBar2 {
+  border-radius: 8px;
+  color: white;
+  align-items: center;
+  background-color: #38434f;
+}
+input {
+  color: white;
+  background-color: #38434f;
+  border: none;
+  outline: none;
+}
+
+.navRow {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .btn-primary {
+  background-color: transparent !important;
+  padding: 0 !important;
+  border: none !important;
+  color: grey !important;
+}
+
+.subDrop:hover {
+  color: white !important;
+}
+
+.btnIcon:hover {
+  color: white !important;
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+
+.btnIcon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* FINE NAVBAR*/
+
+/* messagrBox */
+.position-sticky-bottom {
+  bottom: 0;
+  right: 0;
+  position: fixed !important;
+}
+
+.dropdown-item,
+.dropdown-menu {
+  background-color: #212529 !important;
+  color: white !important;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.dropdown-menu-right.position-sticky-bottom {
+  background-color: white !important;
+}
+
+/*Footer bottom*/
+
+.collegamenti {
+  color: #848482;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
+  margin-bottom: 8px;
+}
+
+.domande {
+  font-size: 1em;
+}
+
+.footerQuestion {
+  font-size: 0.8em;
+  color: #848482;
+}
+
+#language {
+  width: 100%;
+  border-radius: 6px;
+}
+
+/*SectionRight*/
+
+li {
+  font-size: 0.9em;
+}
+
+.subtitleUl {
+  font-size: 0.8em;
+  color: rgb(112, 112, 112);
+}
+
+textarea {
+  resize: none !important;
+  box-shadow: none !important;
+  outline: none;
+  border: 1px solid #ccc !important;
+}
+
+textarea:hover {
+  background-color: #80808050 !important;
+  cursor: pointer;
+}
+
+.post-box-icon {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.post-box-icon:hover {
+  background-color: #848482;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*BODY NEWS*/
+.newsCard {
+  color: white;
+}
+
+.descriptionText {
+  color: rgb(148, 148, 148);
+  font-size: 0.7em;
+}
+
+.descriptionText div:nth-child(1) {
+  font-weight: bold;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.contentNews {
+  font-size: 0.9em;
+}
+
+.commentIcon {
+  border-radius: 10px;
+}
+
+.imgNews img {
+  width: 100%;
+}
+
+.commentIcon:hover {
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+
+.controlIcon div:nth-child(1) {
+  color: rgb(108, 167, 255);
+}
+
+.controlIcon div:nth-child(1):hover {
+  cursor: pointer;
+}
+
+.threeIcon {
+  border-radius: 50%;
+  font-size: 1em;
+}
+
+.threeIcon:hover {
+  cursor: pointer;
+  background-color: rgba(128, 128, 128, 0.5);
+}
+
+.initialNews img {
+  width: 50px;
+}
+/*FINE BODY NEWS*/
+
+/*MODALE*/
+.modalHeader,
+.modalFooter,
+.modalBody {
+  border: none !important;
+  background-color: #1d2226 !important;
+}
+.modalBody {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.4) !important ;
+}
+.btn-close {
+  border-radius: 50% !important;
+}
+.btn-close:hover {
+  background-color: rgba(128, 128, 128, 0.3) !important;
+}
+.textArea {
+  background-color: transparent;
+  border: none !important;
+  color: white;
+  cursor: initial !important;
+}
+.modalFooter button {
+  background-color: rgb(60, 60, 60);
+  border: none;
+  width: 80px;
+  height: 30px;
+  color: rgb(180, 180, 180);
+}
+.modalFooter button:hover {
+  background-color: rgb(80, 80, 80);
+  color: white;
+}
+.textArea:hover {
+  background-color: transparent !important ;
+}
+.detailProfile {
+  line-height: 25px;
+}
+.contModalIcon {
+  width: 80px;
+  padding: 0.5em;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.contModalIcon:hover {
+  opacity: 0.8;
+}
+.modalIcon {
+  padding: 0.5em;
+  border-radius: 50%;
+  background-color: white;
+}
+/* homepage left part */
+.profilePictureHome {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: relative;
+  background-color: black;
+  padding: 2.5px;
+  margin-top: -25px;
+}
+
+.hoverElement:hover {
+  background-color: #84848233;
+  cursor: pointer;
+}
+
+.textSmall {
+  font-size: 12px;
+}
+
+.footerHomepage {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* fine homepage left part */
+
+ .myCard {
+  height: 500px;
+  
+  animation: marco 1s linear;
+}
+@keyframes marco{
+  0%{height:0px}
+  100%{height:500px}
+}
+
+.imageprofile {
+  height: 28px !important;
+  width: 28px !important;
+}
+
+.rounded-circle {
+
+  height: 45px;
+  width:45px;
+}
+
+ 
+
+.modal-content {
+  background-color: #212529 !important;
+  color: white !important;
+}
+
+
+.ordinaPer {
+  font-size: 9px;
+}
+
+.MdAddAPhoto {
+  font-size: 32px;
+  position: relative;
+  right: 40px;
+  background-color: rgba(0, 0, 0, 0.497);
+  border-radius: 50%;
+}
+
+.recenti p:hover, 
+.footerHomepage div p:hover,
+li:hover,
+.card-body:hover {
+  color: white !important;
+  cursor: pointer;
+}
+/*Drop menu*/
+.dropMenu {
+  width: 300px;
+  border: 1px solid rgba(128, 128, 128, 0.3) !important;
+}
+.sectionMenu img {
+  width: 50px;
+  height: 50px;
+}
+.sectionButton div {
+  text-align: center;
+  color: rgb(108, 167, 255) !important;
+  border: 1px solid rgb(108, 167, 255);
+}
+.sectionButton div:hover {
+  background-color: rgba(108, 167, 255, 0.1);
+}
+.sectionMenu,
+.sectionAccount,
+.sectionAttivity {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+.dropMenu p {
+  color: white !important;
+  margin: 0;
+  font-weight: bold;
+}
+.dropMenu div {
+  color: rgb(190, 190, 190);
+}
+.toggleMenu:after{
+content: none !important;
+}
+/**/
+/*MEDIA QUERY NAV*/
+@media screen and (max-width: 1100px) {
+  .mediaNone {
+    display: none;
+  }
+  .navRow {
+    margin: 0.5em;
+  }
+}
+@media screen and (max-width: 480px) {
+.icons{
+  margin: 0;
+}
+}
+@media screen and (max-width: 800px) {
+  .menuFalse {
+    display: none;
+  }
+
+  .iteration{
+    border: none;
+   
+  }
+}
+@media screen and (min-width: 801px) {
+.iteration{
+  display: flex;
+}
+.inputBar2 {
+width: 100% !important;
+}
+.inputBar {
+width: 100% !important;
+}
+.input1 {
+  width: 100% !important;
+}
+.input2 {
+  width: 100% !important;
+}
+.searchBar{
+  width: 20% !important;
+}
+}
+.searchBar{
+  width: 100%;
+}
